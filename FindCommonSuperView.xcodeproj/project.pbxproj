@@ -16,6 +16,7 @@
 		C5E17F7D267C9403002522DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E17F7C267C9403002522DD /* main.m */; };
 		C5E17F87267C9403002522DD /* FindCommonSuperViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E17F86267C9403002522DD /* FindCommonSuperViewTests.m */; };
 		C5E17F92267C9403002522DD /* FindCommonSuperViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E17F91267C9403002522DD /* FindCommonSuperViewUITests.m */; };
+		C5E17FA1267C9421002522DD /* LCFindCommonSuperViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E17FA0267C9421002522DD /* LCFindCommonSuperViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C5E17F8D267C9403002522DD /* FindCommonSuperViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCommonSuperViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E17F91267C9403002522DD /* FindCommonSuperViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindCommonSuperViewUITests.m; sourceTree = "<group>"; };
 		C5E17F93267C9403002522DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E17F9F267C9421002522DD /* LCFindCommonSuperViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCFindCommonSuperViewManager.h; sourceTree = "<group>"; };
+		C5E17FA0267C9421002522DD /* LCFindCommonSuperViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCFindCommonSuperViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C5E17F6E267C9402002522DD /* SceneDelegate.m */,
 				C5E17F70267C9402002522DD /* ViewController.h */,
 				C5E17F71267C9402002522DD /* ViewController.m */,
+				C5E17F9F267C9421002522DD /* LCFindCommonSuperViewManager.h */,
+				C5E17FA0267C9421002522DD /* LCFindCommonSuperViewManager.m */,
 				C5E17F73267C9402002522DD /* Main.storyboard */,
 				C5E17F76267C9403002522DD /* Assets.xcassets */,
 				C5E17F78267C9403002522DD /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E17FA1267C9421002522DD /* LCFindCommonSuperViewManager.m in Sources */,
 				C5E17F72267C9402002522DD /* ViewController.m in Sources */,
 				C5E17F6C267C9402002522DD /* AppDelegate.m in Sources */,
 				C5E17F7D267C9403002522DD /* main.m in Sources */,
